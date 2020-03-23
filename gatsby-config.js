@@ -17,7 +17,7 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'GCN',
+    title: 'Katsu07',
     description:
       'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
     siteUrl: 'https://gcn.netlify.com',
@@ -26,14 +26,6 @@ module.exports = {
       {
         name: 'Home',
         slug: '/',
-      },
-      {
-        name: 'About',
-        slug: '/about/',
-      },
-      {
-        name: 'Contact',
-        slug: '/contact/',
       },
     ],
     postsPerFirstPage: 7,

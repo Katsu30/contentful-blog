@@ -3,17 +3,16 @@ import styled from '@emotion/styled'
 
 const Wrapper = styled.footer`
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   margin: 0 auto;
-  max-width: ${props => props.theme.sizes.maxWidth};
+  background-color: #F5F5F5;
+  width: 100%;
 `
 
 const List = styled.ul`
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   width: 100%;
   border-top: 1px solid ${props => props.theme.colors.secondary};
@@ -45,34 +44,7 @@ const Footer = () => (
   <Wrapper>
     <List>
       <Item>
-        <a
-          href="https://www.contentful.com/"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
-          />
-        </a>
-      </Item>
-      <Item>
-        <a
-          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          gatsby-starter-gcn
-        </a>{' '}
-        by{' '}
-        <a
-          href="https://github.com/ryanwiemer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @ryanwiemer
-        </a>
+        <p>Gatsby Blog by <strong>Katsuhiro Shiraishi</strong></p>
       </Item>
     </List>
   </Wrapper>

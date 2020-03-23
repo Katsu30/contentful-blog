@@ -31,18 +31,19 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: DarkGray;
+    color: #4a4a4a;
     font-weight: 600;
-    transition: all 0.2s;
-    border-bottom: 2px solid ${props => props.theme.colors.text};
+    padding: 0.5rem 0.5rem;
+		border-radius: 5px;
+		transition: all 5ms;
     &:hover {
-      color: white;
+      background-color: #f5f5f5;
     }
   }
 `
 
 const activeLinkStyle = {
-  color: 'white',
+  borderBottom: '2px solid #4a4a4a',
 }
 
 const Menu = () => {
@@ -52,12 +53,23 @@ const Menu = () => {
       <Nav>
         <ul>
           {menuLinks.map(link => (
-            <li key={link.name}>
-              <Link to={link.slug} activeStyle={activeLinkStyle}>
+            <li key={link.name} activeStyle={activeLinkStyle}>
+              <Link to={link.slug}>
                 {link.name}
               </Link>
             </li>
           ))}
+          <li>
+            <a
+            href='https://katsu07-portfolio.netlify.com/'
+            target='_blank'
+            >About</a>
+          </li>
+          <li>
+            <Link to='/contact'>
+              Contact
+            </Link>
+          </li>
         </ul>
       </Nav>
     </Header>
