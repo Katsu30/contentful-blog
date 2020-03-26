@@ -52,6 +52,7 @@ module.exports = {
               linkImagesToOriginal: false,
             },
           },
+          "gatsby-plugin-twitter",
         ],
       },
     },

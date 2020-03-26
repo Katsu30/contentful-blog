@@ -232,7 +232,7 @@ class ContactForm extends React.Component {
 
         <Modal visible={this.state.showModal}>
           <p>
-          メッセージの送信ありがとうございます。<br/>>
+          メッセージの送信ありがとうございます。<br/>
           返信をお待ちいただけると幸いです。
           </p>
           <Button onClick={this.closeModal}>Okay</Button>

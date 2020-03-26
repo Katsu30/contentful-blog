@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from '@emotion/styled'
 import { useSiteMetadata } from '../hooks/use-site-metadata'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
 
 const Header = styled.header`
   background: ${props => props.theme.colors.primary};
