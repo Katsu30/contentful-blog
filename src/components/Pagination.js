@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 `
 
 const Button = styled(Link)`
-  background: ${props => props.theme.colors.primary};
+  background: ${props => props.theme.colors.highlight};
   color: white;
   padding: 1rem;
   border-radius: 2px;
@@ -27,7 +27,7 @@ const Button = styled(Link)`
     background: ${props => props.theme.colors.highlight};
   }
   @media (hover: none) {
-    background: ${props => props.theme.colors.primary} !important;
+    background: ${props => props.theme.colors.highlight} !important;
   }
 `
 
