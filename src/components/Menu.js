@@ -65,7 +65,7 @@ const Menu = () => {
             <a
             href='https://katsu07-portfolio.netlify.com/'
             target='_blank'
-            >About</a>
+            >Portfolio</a>
           </li>
           <li>
             <Link to='/contact'>

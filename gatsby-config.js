@@ -19,8 +19,8 @@ module.exports = {
   siteMetadata: {
     title: 'Katsu07',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-    siteUrl: 'https://gcn.netlify.com',
+      'A blog written by an engineer, Katsuhiro Shiraishi from Tokyo',
+    siteUrl: 'https://katsu07.netlify.com/',
     image: '/images/share.jpg',
     menuLinks: [
       {
@@ -75,13 +75,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'Katsu07',
+        short_name: 'Katsu07',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
         display: 'minimal-ui',
-        icon: './static/images/favicon.png',
+        icon: './static/images/KS07-logo-white.png',
       },
     },
     'gatsby-plugin-offline',
