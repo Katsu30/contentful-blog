@@ -30,7 +30,7 @@
     "gatsby-remark-autolink-headers": "^2.1.24",
     "gatsby-remark-images-contentful": "^2.1.31",
     "gatsby-remark-prismjs": "^3.3.31",
-    "gatsby-source-contentful": "^2.1.85",
+    "gatsby-source-contentful": "^8.9.1",
     "gatsby-transformer-remark": "^5.25.1",
     "inquirer": "^7.0.4",
     "lodash": "^4.17.15",
